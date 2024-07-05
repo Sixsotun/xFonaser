@@ -32,3 +32,15 @@ themeSwitcher.addEventListener('click', switchTheme)
 from math import floor
 difference_by([2.1, 1.2], [2.3, 3.4],floor) # [1.2]
 difference_by([{ 'x': 2 }, { 'x': 1 }], [{ 'x': 1 }], lambda v : v['x']) # [ { x: 2 } ]
+
+.wrap {
+  filter: drop-shadow(0 0 10px gray);
+}
+
+.element {
+  display: inline-block;
+  width: 111px;
+  height: 111px;
+  background-color: #fff;
+  border-radius: 2em;
+}
