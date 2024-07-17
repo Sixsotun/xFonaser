@@ -44,6 +44,4 @@ difference_by([{ 'x': 2 }, { 'x': 1 }], [{ 'x': 1 }], lambda v : v['x']) # [ { x
   background-color: #fff;
   border-radius: 2em;
 }
-def difference_by(a, b, fn):
-    b = set(map(fn, b))
-    return [item for item in a if fn(item) not in b]
+
