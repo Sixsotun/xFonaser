@@ -37,11 +37,4 @@ difference_by([{ 'x': 2 }, { 'x': 1 }], [{ 'x': 1 }], lambda v : v['x']) # [ { x
   filter: drop-shadow(0 0 10px gray);
 }
 
-.element {
-  display: inline-block;
-  width: 111px;
-  height: 111px;
-  background-color: #fff;
-  border-radius: 2em;
-}
 
