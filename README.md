@@ -39,4 +39,6 @@ difference_by([{ 'x': 2 }, { 'x': 1 }], [{ 'x': 1 }], lambda v : v['x']) # [ { x
 
 
 Terminal window
-web-ext run --firefox=firefoxdeveloperedition
+web-ext run --firefox=firefoxdeveloperedition....
+..
+.
