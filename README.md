@@ -42,3 +42,5 @@ Terminal window
 web-ext run --firefox=firefoxdeveloperedition....
 ..
 .
+def five_seconds_passed():
+    return sleep_five_seconds() == 0
